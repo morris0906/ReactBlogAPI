@@ -45,7 +45,7 @@ namespace MyAppAPI
                                             .AllowAnyMethod();
                     });
             });
-            services.AddDbContext<AppDB>(options =>
+            services.AddDbContext<my_app_context>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("sqlDatabase"));
             });
