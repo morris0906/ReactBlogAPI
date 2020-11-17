@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MyAppAPI.Models
 {
     [Table("post")]
-    public class Post
+    public partial class Post
     {
         [Key]
         [Column("id")]
